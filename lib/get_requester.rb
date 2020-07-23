@@ -22,7 +22,7 @@ class GetRequester
     def parse_json
          results=JSON.parse(self.get_response_body)
          results.collect do |result|
-           results.to_s
+           result.to_s
          results["result"]
        end
     end
