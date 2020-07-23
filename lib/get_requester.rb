@@ -24,6 +24,7 @@ class GetRequester
          results.collect do |result|
          results.to_s["result"]
        end
+       results
     end
 
 end 
